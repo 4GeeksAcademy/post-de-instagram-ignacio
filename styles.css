@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e5e5e5;
+}
+
+header {
+  background: white;
+  padding: 20px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.feed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.post {
+  width: 500px;
+  background: white;
+  margin-bottom: 40px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 15px;
+  font-weight: bold;
+}
+
+.post img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.post-body {
+  padding: 10px 15px;
+  font-size: 14px;
+}
+
+.date {
+  color: gray;
+  font-weight: normal;
+}
